@@ -27,7 +27,10 @@ pasek przewijania typu  NeXT.
 	--enable-transparency \
 	--enable-next-scroll \
 	--enable-ttygid \
-	--enable-xpm-background
+	--enable-xpm-background \
+	--enable-menubar \
+	--enable-wtmp \
+	--enable-utmp
 
 %{__make}
 
