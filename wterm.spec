@@ -2,7 +2,7 @@ Summary:	Terminal emulator for WindowMaker
 Summary(pl):	Emulator terminala dla WindowMakera
 Name:		wterm
 Version:	6.2.9
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://largo.windowmaker.org/files/%{name}-%{version}.tar.bz2
@@ -31,6 +31,7 @@ przezroczystosci t³a czy przezroczysty pasek przewijania typu NeXT.
 	--enable-next-scroll \
 	--enable-ttygid \
 	--enable-xpm-background \
+	--with-xpm-library=/usr/X11R6/lib64 \
 	--enable-menubar \
 	--enable-wtmp \
 	--enable-utmp
