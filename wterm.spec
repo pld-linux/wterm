@@ -19,8 +19,8 @@ scroll bar.
 
 %description -l pl
 Wterm jest klonem rxvt stworzonym specjalnie z my¶l± o WindowMakerze.
-Oferuje wiele interesuj±cych funkcji, takich jak bardzo szybka obsluga
-przezroczystosci t³a czy przezroczysty pasek przewijania typu NeXT.
+Oferuje wiele interesuj±cych funkcji, takich jak bardzo szybka obs³uga
+przezroczysto¶ci t³a czy przezroczysty pasek przewijania typu NeXT.
 
 %prep
 %setup -q 
