@@ -9,7 +9,7 @@ Source0:	http://largo.windowmaker.org/files/%{name}-%{version}.tar.bz2
 # Source0-md5:	09ec12901333ad51aeca2ecd8c88730d
 URL:		http://largo.windowmaker.org/files.php#wterm
 BuildRequires:	WindowMaker-devel
-BuildRequires:	XFree86-devel
+BuildRequires:	xorg-lib-libXt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -31,7 +31,7 @@ przezroczysto¶ci t³a czy przezroczysty pasek przewijania typu NeXT.
 	--enable-next-scroll \
 	--enable-ttygid \
 	--enable-xpm-background \
-	--with-xpm-library=/usr/X11R6/%{_lib} \
+	--with-xpm-library=%{_libdir} \
 	--enable-menubar \
 	--enable-wtmp \
 	--enable-utmp
