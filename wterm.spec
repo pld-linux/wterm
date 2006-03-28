@@ -7,6 +7,8 @@ License:	GPL
 Group:		X11/Applications
 Source0:	http://largo.windowmaker.org/files/%{name}-%{version}.tar.bz2
 # Source0-md5:	09ec12901333ad51aeca2ecd8c88730d
+Source1:	%{name}.desktop
+Source2:	%{name}.png
 URL:		http://largo.windowmaker.org/files.php#wterm
 BuildRequires:	WindowMaker-devel
 BuildRequires:	XFree86-devel
@@ -40,9 +42,13 @@ przezroczysto¶ci t³a czy przezroczysty pasek przewijania typu NeXT.
 
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT{%{_desktopdir},%{_pixmapsdir}}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
+
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
+install %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -51,4 +57,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README doc/{BUGS,FAQ,README*,TODO}
 %attr(755,root,root) %{_bindir}/wterm
+%{_desktopdir}/%{name}.desktop
+%{_pixmapsdir}/%{name}.png
 %{_mandir}/man1/wterm.1*
