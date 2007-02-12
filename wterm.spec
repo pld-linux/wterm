@@ -1,5 +1,5 @@
 Summary:	Terminal emulator for WindowMaker
-Summary(pl):	Emulator terminala dla WindowMakera
+Summary(pl.UTF-8):   Emulator terminala dla WindowMakera
 Name:		wterm
 Version:	6.2.9
 Release:	4
@@ -19,10 +19,10 @@ Wterm is a rxvt clone designed for WindowMaker. It has some
 interesting featrues like very fast transparency or transparent NeXT
 scroll bar.
 
-%description -l pl
-Wterm jest klonem rxvt stworzonym specjalnie z my∂l± o WindowMakerze.
-Oferuje wiele interesuj±cych funkcji, takich jak bardzo szybka obs≥uga
-przezroczysto∂ci t≥a czy przezroczysty pasek przewijania typu NeXT.
+%description -l pl.UTF-8
+Wterm jest klonem rxvt stworzonym specjalnie z my≈õlƒÖ o WindowMakerze.
+Oferuje wiele interesujƒÖcych funkcji, takich jak bardzo szybka obs≈Çuga
+przezroczysto≈õci t≈Ça czy przezroczysty pasek przewijania typu NeXT.
 
 %prep
 %setup -q 
