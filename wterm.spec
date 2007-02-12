@@ -1,5 +1,5 @@
 Summary:	Terminal emulator for WindowMaker
-Summary(pl.UTF-8):   Emulator terminala dla WindowMakera
+Summary(pl.UTF-8):	Emulator terminala dla WindowMakera
 Name:		wterm
 Version:	6.2.9
 Release:	4
