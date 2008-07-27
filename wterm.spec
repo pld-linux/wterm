@@ -2,7 +2,7 @@ Summary:	Terminal emulator for WindowMaker
 Summary(pl.UTF-8):	Emulator terminala dla WindowMakera
 Name:		wterm
 Version:	6.2.9
-Release:	4
+Release:	5
 License:	GPL
 Group:		X11/Applications
 Source0:	http://largo.windowmaker.org/files/%{name}-%{version}.tar.bz2
