@@ -16,7 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Wterm is a rxvt clone designed for WindowMaker. It has some
-interesting featrues like very fast transparency or transparent NeXT
+interesting features like very fast transparency or transparent NeXT
 scroll bar.
 
 %description -l pl.UTF-8
